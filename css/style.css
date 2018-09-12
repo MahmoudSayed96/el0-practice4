@@ -1,0 +1,337 @@
+
+/* Start General Style */
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma,Arial;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding:15px;
+}
+
+hr {
+    background-color:#f1f1f1;
+    padding: 1px;
+    border: 0;
+}
+
+.overly{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    transition: .5s ease-in-out;
+    display: none;
+}
+/* End General Style */
+
+/* Start Header */
+
+.header {
+    overflow: hidden;
+}
+
+.header div{
+    float: left;
+}
+
+.header .logo {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.header .logo span {
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.header .logo span:first-of-type {
+    background-color: #ffdbd1;
+    top: 0;
+}
+
+.header .logo span:nth-of-type(2) {
+    background-color: #f8c6c6;
+    top: 5px;
+}
+
+.header .logo span:nth-of-type(3) {
+    background-color: #6a65d8;
+    top: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.header .logo span:last-of-type {
+    color: #6a65d8;
+    font-weight: bold;
+    top: 15px;
+    right: 16px;
+    font-size: 22px;
+}
+
+.header .navbar {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.header .navbar .nav-list {
+    list-style: none;
+}
+
+.header .navbar .nav-list li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header .navbar .nav-list li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    font-size: 18px;
+}
+
+.header .right {
+    float: right;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.header .right .serach-form {
+   margin-right: 15px;
+   width: 200px;
+  
+}
+
+.header .right .serach-form form {
+    width: 100%;
+}
+
+.header .right .serach-form form .search-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.header .right .conect a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header .right .conect a.login {
+    color: #7f7f7f;
+}
+
+
+.header .right .conect a.sign-up {
+    color: #FFF;
+    background-color: #6a65d8;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+/* End Header */
+
+/* Start Quotes */
+
+.quotes {
+    overflow: hidden;
+    padding: 30px 0 20px 0;
+}
+
+.quotes h2 {
+    color: #4e4e4e;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.quotes > div {
+    float: left;
+    margin-right: 1%;
+    height: 400px;
+    width: 24%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.quotes > div:last-of-type {
+    margin-right: 0;
+}
+
+.quotes .first .one {
+    background: url('../img/paul.jpg') center center no-repeat;
+    background-size: cover;
+    height: 50%;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.quotes .first .one .overly{
+    background: rgba(123, 123, 123, .7);
+    padding-top: 50px;
+    transition: .5s ease-in-out;
+    display: none;
+}
+
+.quotes .first .one .overly h4 {
+    margin-bottom: 10px;
+}
+
+.quotes .first .one:hover  .overly{
+    display: block;
+}
+.quotes .first .two {
+    background: url('../img/egypt.jpg') center center no-repeat;
+    background-size: cover;
+    height: 50%;
+    margin-bottom: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.quotes .first .two .overly{
+    padding-top: 30px;
+    background: rgba(130, 112, 192, .7);
+    text-align: center;
+}
+
+.quotes .first .two .overly h4 {
+    margin-bottom: 10px;
+}
+
+.quotes .first .two:hover  .overly{
+    display: block;
+}
+
+.quotes .second {
+    background: url('../img/bill.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.quotes .second div {
+    color: #fff;
+    width: 150px;
+    padding: 10px 10px 10px 15px;
+    margin-top: 10px;
+}
+
+.quotes .second div h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quotes .third .one {
+    background: url('../img/muhammed.jpg') center center no-repeat;
+    background-size: cover;
+    height: 70%;
+    margin-bottom: 10px;
+}
+
+.quotes .third .one .overly{
+    background: rgba(123, 123, 123, .7);
+    padding: 30px 15px;
+    transition: .5s ease-in-out;
+    display: none;
+}
+
+.quotes .third .one .overly h4 {
+    margin-bottom: 10px;
+}
+
+.quotes .third .one:hover  .overly{
+    display: block;
+}
+
+.quotes .third .two {
+    background-color: #707070;
+    color: #fff;
+    border-radius: 5px;
+    height: 30%;
+    color: #fff;
+    padding: 10px;
+}
+
+.quotes .third .two q {
+    display: block;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.quotes .last .one {
+    background: url('../img/paul.jpg') center center no-repeat;
+    background-size: cover;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.quotes .last .one .overly{
+    background: rgba(130, 112, 192, .7);
+    padding-top: 20px;
+    transition: .5s ease-in-out;
+    display: none;
+    text-align: center;
+}
+
+.quotes .last .one:hover  .overly{
+    display: block;
+}
+
+.quotes .last .two {
+    background: url('../img/patrick.jpg') center center no-repeat;
+    background-size: cover;
+    height: 70%;
+}
+
+.quotes .last .two .overly{
+    background: rgba(251, 172, 172, 0.4);
+    padding-top: 50px;
+    transition: .5s ease-in-out;
+    display: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.quotes .last .two .overly h4 {
+    margin-top: 15px;
+}
+
+.quotes .last .two:hover .overly{
+    display: block;
+}
+/* End Quotes */
+
+/* Start Footer */
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #888;
+}
+/* End Footer */
